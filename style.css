@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display:grid;
+    place-items: center;
+    background: black;
+}
+
+.fight{
+    height: 100vh;
+}
+
+.background{
+    height: 100%;
+    position: relative;
+    bottom: -6px;
+    left: 50%;
+    transform: translate(-50%) translate(-17px);
+    overflow: hidden;
+}
+
+
+.player{
+    position: relative;
+    bottom: -15px;
+    left: 0;
+    z-index : 1000;
+    width: calc(100vh / 3);
+}
